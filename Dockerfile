@@ -19,4 +19,4 @@ ENV GROQ_API_KEY="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"
 ENV COHERE_API_KEY="uSmH32NPyGFVENXCzxgw4BxfL6SAl9rbEQXVdocP"
 
 # Run app.py when the container launches
-CMD ["chainlit", "run", "app.py"]
+CMD ["chainlit", "run", "app_prompts.py"]
